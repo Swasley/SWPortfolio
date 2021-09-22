@@ -1,0 +1,118 @@
+@import "./base.scss";
+
+h1 {
+    font-size: 90px;
+    margin-left: 80px;
+    margin-top: 150px;
+    color: #1c1d25;
+    font-family: $font-display;
+}
+
+p {
+    margin-left: 100px; 
+    color: #1c1d25;   
+    font-family: $font-display;                                 
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.heading {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-color: #326273;
+
+    .filler {
+        margin-left: 100px;
+        font-family: $font-display;
+        font-size: 30px;
+        color:rgb(197, 197, 197);
+    }
+}
+
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+  background-color: #d6a2ad;
+
+.h2 {
+    font-size: 80px;
+    font-family: $font-body;  
+}
+
+.p {
+    font-size: 50px;
+    font-family: $font-body;
+}
+}
+
+.subtext {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 10px;
+  
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px black;
+  margin: 10px;
+  background-color: white;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 210px;
+  border-radius: 125px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.last-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  background-color: #50514f;
+
+  h2 {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+.form {
+  margin-top: 100px;
+}
