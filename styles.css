@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@300&family=Reenie+Beanie&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 section {
-  height: 500px;
+  min-height: 50px;
   background-color: white;
   border: solid black 1px;
   font-family: "reenie beanie", sans-serif;
@@ -102,6 +102,7 @@ p {
 .project-card {
   width: 300px;
   height: 500px;
+  padding: 50px;
   box-shadow: 5px 5px 20px black;
   margin: 10px;
   background-color: white;
@@ -139,8 +140,12 @@ a {
   color: white;
   margin-top: 20px;
   text-align: center;
+  font-family: "reenie beanie", sans-serif;
+  width: 300px;
+  text-align: center;
+  font-size: 50px;
 }
-
-.form {
-  margin-top: 100px;
+.last-section p {
+  color: white;
+  font-size: 30px;
 }
