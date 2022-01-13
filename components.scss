@@ -27,6 +27,10 @@ ul {
     font-size: 40px;
 }
 
+ul.show {
+    display: block;
+}
+
 li {
     width: 200px;
     text-decoration: none;
