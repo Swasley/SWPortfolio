@@ -27,11 +27,6 @@ p {
     padding-bottom: 200px;
 }
 
-// .bi-github {
-//   background-image: linear-gradient(#4AA1FA, #9477F8, #E649F5);
-
-// }
-
 .heading {
     margin-left: 80px;
     margin-bottom: 200px;
@@ -155,7 +150,7 @@ nav {
     display: block;
     border: 0;
     background-color: transparent;
-    color: black;
+    color: #fff;
     font-size: 30px;
     margin: 20px;
     align-self: flex-end;
@@ -165,17 +160,31 @@ nav {
 
 nav {
   display: flex;
-  flex-direction: column-reverse;
-  background-color: #2b2f50;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1d25;
+
+  .logo {
+    width: 130px;
+  }
+
+  .logo-container {
+    padding-left: 20px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column-reverse;
+  }
 
   ul {
-    display: none;
-    background-color: #2b2f50;
+    display: flex;
+    align-items: center;
+    background-color: #1c1d25;
     margin: 0;
+
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
   }
 }
-
-.logo {
-  display: none;
-}
-

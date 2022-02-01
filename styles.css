@@ -178,7 +178,7 @@ nav ul {
     display: block;
     border: 0;
     background-color: transparent;
-    color: black;
+    color: #fff;
     font-size: 30px;
     margin: 20px;
     align-self: flex-end;
@@ -186,15 +186,30 @@ nav ul {
 }
 nav {
   display: flex;
-  flex-direction: column-reverse;
-  background-color: #2b2f50;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1d25;
+}
+nav .logo {
+  width: 130px;
+}
+nav .logo-container {
+  padding-left: 20px;
+}
+@media screen and (max-width: 1000px) {
+  nav {
+    flex-direction: column-reverse;
+  }
 }
 nav ul {
-  display: none;
-  background-color: #2b2f50;
+  display: flex;
+  align-items: center;
+  background-color: #1c1d25;
   margin: 0;
 }
-
-.logo {
-  display: none;
+@media screen and (max-width: 1000px) {
+  nav ul {
+    display: none;
+  }
 }
